@@ -27,7 +27,7 @@
 
   <servlet>
     <servlet-name>DisplayImage</servlet-name>
-    <servlet-class>by.it_academy.task3.controller.DisplayImage</servlet-class>
+    <servlet-class>by.it_academy.task3.controller.DisplayImageServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
@@ -37,7 +37,7 @@
 
   <servlet>
     <servlet-name>task2</servlet-name>
-    <jsp-file>/html/task2.html</jsp-file>
+    <jsp-file>/resources/html/task2.html</jsp-file>
   </servlet>
 
   <servlet-mapping>
